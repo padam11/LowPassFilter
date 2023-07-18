@@ -9,3 +9,16 @@
 */
 
 #include "LowpassHighpassFilter.h"
+
+void LowpassHighpassFilter::setHighpass(<#bool highpass#>) {
+    this->highpass = highpass;
+}
+
+void LowpassHighpassFilter::setCutoffFrequency(float cutoffFrequency) {
+  this->cutoffFrequency = cutoffFrequency;
+}
+
+void LowpassHighpassFilter::setSamplingRate(float samplingRate) {
+  this->samplingRate = samplingRate;
+}
+
